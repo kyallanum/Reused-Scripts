@@ -1,4 +1,6 @@
 # Code extracted from https://stuartleeks.com/posts/wsl-ssh-key-forward-to-windows/ with minor modifications
+# Code further extracted from https://dev.to/d4vsanchez/use-1password-ssh-agent-in-wsl-2j6m with modifications to behavior.
+
 
 # Configure ssh forwarding
 export SSH_AUTH_SOCK=$HOME/.1password/agent.sock
